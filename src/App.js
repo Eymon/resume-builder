@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Resume from './ViewResume';
-//import Resume from './routerTrial';
+import Resume from './Resume';
 import {
   BrowserRouter as Router,
   Route,
