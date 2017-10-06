@@ -24,10 +24,11 @@ export class ViewRes extends React.Component {
 
   _onSubmit = (newDetails) => {
     this.setState({
-      isUpdateOpen: false
+      isUpdateOpen: false,
+      resumeDetails: newDetails
     })
-
-    console.log(newDetails)
+    
+    // console.log(newDetails)
   }
 
   render() {

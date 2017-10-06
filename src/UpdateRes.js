@@ -55,6 +55,27 @@ export class UpdateRes extends React.Component {
             case 'middle_name':
                 this.setState({middle_name: context.value})
                 break;
+
+            case 'last_name':
+                this.setState({last_name: context.value})
+                break;
+
+            case 'email':
+                this.setState({email: context.value})
+                break;
+
+            case 'birthday':
+                this.setState({birthday: context.value})
+                break;
+
+            case 'address':
+                this.setState({address: context.value})
+                break;    
+
+            case 'phone':
+                this.setState({phone: context.value})
+                break;
+
             default:
                 break;
         }
